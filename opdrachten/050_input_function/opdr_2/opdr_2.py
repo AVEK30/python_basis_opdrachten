@@ -9,8 +9,10 @@ while stop:
     tvvwst = (input("wil je een gast van of aan de lijst toevoegen of verwijderen? typ ""toevoegen"" of ""verwijderen"" wilt u stoppen typ ""stop"" \n"))
 
     if tvvwst== 'toevoegen':
+        positie = int(input("voeg hier een positie toe\n"))
+
         n_gast = input("voeg hier een gast toe \n")
-        gasten.append(n_gast)
+        gasten.insert(positie, n_gast)
         print(gasten)
 
     if tvvwst== 'verwijderen':
