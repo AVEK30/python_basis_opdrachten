@@ -16,4 +16,4 @@ De formule voor de lijn is: y = 4x + 7
 Bereken met een range van 1 tot 10 wat de uitkomst is voor y
 
 Output:
-> [11, 15, 19, 23, 27, 31, 35, 39, 43]
+> [ 
