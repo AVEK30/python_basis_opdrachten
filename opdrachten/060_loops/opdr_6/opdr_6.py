@@ -6,4 +6,4 @@
 
 # Hier start de for-loop
 
-my_list = []
+pizzas = ['margharita', 'calzone', 'verdi', 'olivio', 'quattro stagioni']

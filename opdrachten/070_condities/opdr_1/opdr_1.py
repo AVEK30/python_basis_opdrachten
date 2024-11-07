@@ -6,7 +6,9 @@
 
 # Hier start de for-loop....
 
-my_list = []
+looplist = []
+for x in range(1,11):
+    looplist.append(x)
 
-#for loop
-#if statement
+looplist4 = [i for i in looplist if i > 4]
+print(looplist4)
